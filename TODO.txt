@@ -1,0 +1,16 @@
+TODO:
+
+- LOGO
+- 2x new title images
+- articles:
+	- ISS images
+	- Ground Station 
+	- Sparkasse
+	- Paris prep
+- Our Team: every person 
+- Our Team: deutsch
+- Project:
+	- Frame
+	- Power Managment
+	- Image Capturing & Processing
+	- Radio System
