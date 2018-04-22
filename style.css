@@ -46,11 +46,14 @@ a {
 #logo a {
 	color: #1bb3e5;
 }
+nav ul li a {
+	font-weight: normal;
+}
 
 #social {
 	float: right;
 	margin-right: 10px;
-	margin-top: 9px;
+	margin-top: 8px;
 }
 @media (min-width: 50em){
 	#social {
@@ -79,7 +82,7 @@ a {
 	height: 64px;
 	width: 30px;
 	background-color: #525252;
-	margin-top: -1em;
+    margin-top: -1.1em;
 	color: white;
 	padding-top: 14px;
 	padding-left: 7px;
@@ -89,6 +92,10 @@ a {
 }
 
 #ger {
+	display: none;
+}
+
+#langBot {
 	display: none;
 }
 
@@ -170,7 +177,7 @@ nav ul li a:hover {
 	}
 	nav ul{
 		float: right;
-		margin-top: 0.8em;
+		margin-top: 0.7em;
 		padding-left: 5px;
 		padding-bottom: 0px;
 	}
@@ -200,6 +207,7 @@ nav ul li a:hover {
 
 .selA {
 	background: var(--col-accent);
+	border-radius: 2px;
 }
 
 #content {
@@ -251,7 +259,7 @@ footer{
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: var(--img-height);
+	min-height: var(--img-height);
 	/* width: 100%; */
 	/* margin: 20px; */
 }
@@ -260,6 +268,10 @@ footer{
 	margin: 10px;
 	font-size: 1.1em;
 	padding: 20px;
+	padding-top: 0px;
+}
+.text p{
+	margin-top: 0px;
 }
 
 .contentClass, .contentClassRight{

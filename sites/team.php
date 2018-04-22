@@ -46,7 +46,7 @@ function profileClickClose(member) {
 		<img class="profilepic" src="img/flo.jpg">
 		<div class="name">Florian Jüngermann</div>
 		<div class="role">Control Systems Engineer</div>
-		<div class="description">Hello there</div>
+		<div class="description">I am currently mainly working on the Attitude Determination and Control System. There I have implemented a physics simulation. Now, I am testing several approaches for the control system. Moreover, I also administrate the website and the Instagram and Facebook accounts.</div>
 		<div class="down" onclick="profileClick('mem2')"><img class="dropdown" src="img/dropdown.png" height="30"></div>
 	</div>
 	<div class="member" id="mem3">

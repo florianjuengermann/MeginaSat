@@ -5,11 +5,12 @@
 	padding: 5px;
 }
 #articleWrapper h1 {
-	letter-spacing: 0.15em;
+	/*letter-spacing: 0.15em;*/
     font-size: 3.5em;
     font-weight: 100;
 	margin: 0px 0px 4px 10px;
 	padding-top: 80px;
+	text-align: center;
 }
 #articleWrapper h3 {
 	text-transform: uppercase;
@@ -25,9 +26,12 @@
 }
 #articleWrapper .imgBox img, #articleWrapper .imgBox2 img{
 	max-width: 100%;
-	height: 800px;
+	/*height: 800px;*/
 	max-height: 50vh;
 	display: block;
+}
+#articleWrapper .imgBox p, #articleWrapper .imgBox2 p {
+	font-size: 0.8em;
 }
 #articleWrapper .imgBox img{
 	margin: 0px auto;
@@ -37,9 +41,13 @@
 }
 #articleWrapper .imgBox2 div{
 	margin: 0px auto;
-	width: 85%;
+	width: 100%;
 }
 
 #articleWrapper .imgBox p, #articleWrapper .imgBox2 p{
 	text-align: center;
+}
+
+#articleWrapper .underscore{
+	margin-bottom: 50px;
 }

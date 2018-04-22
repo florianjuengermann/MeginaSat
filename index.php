@@ -48,7 +48,7 @@ else{
           <span class="EN">Sponsors</span>
           <span class="DE">Sponsoren</span>
         </a></li>
-        <li><a id="a5" href="#" onclick="nav('contacts')">
+        <li><a id="a5" href="mailto:someone@example.com?Subject=Hello%20again" onclick="nav('contacts')">
           <span class="EN">Contact</span>
           <span class="DE">Kontakt</span>
         </a></li>

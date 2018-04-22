@@ -45,7 +45,7 @@ document.getElementById("a5").classList.remove("selA");
 		</div>
 		<div class="image" style="background-color: #171e2d; background-image: url('../img/earthGraphic.png')" ></div>
 		<div class="text EN">
-			The MGMCube is a nanosatellite wich is going to be launched onto a low earth orbit. There it is going to take <b>pictures</b> of earth and other celestial bodys. It <b> transmits </b> these images to the ground station in Mayen (Germany). Visit <a href="#" onclick="nav('project')">Our Project</a> page for a detailed explanation.
+			The MGMCube is a nanosatellite which is going to be launched onto a low earth orbit. There it is going to take <b>pictures</b> of earth and other celestial bodys. It <b> transmits </b> these images to the ground station in Mayen (Germany). Visit <a href="#" onclick="nav('project')">Our Project</a> page for a detailed explanation.
 		</div>
 		<div class="text DE">
 			Der MGMCube ist ein Nanosatellit, der in den Erdorbit geschickt wird und dort <b>Fotos</b> von der Erde und anderen Himmelskörpern macht. Diese Daten sendet er dann zur Bodenstation in Mayen. Klicken Sie  <a href="#" onclick="nav('project')">hier</a> für mehr Informationen zu unserem Projekt.
@@ -65,10 +65,10 @@ document.getElementById("a5").classList.remove("selA");
 		</div>
 		<div class="imageRight" style="background-color: #b3aaba; background-image: url('../img/Cubesat.jpg')" ></div>
 		<div class="textRight EN">
-			The 10cm small case comprises a variety of components. These include an antenna system, a high-resolution camera, three magnetorquers, six sun sensors and solar cells and <a href="#" onclick="nav('project')">more </a>.
+			The 10cm small case comprises a variety of components. These include an antenna system, a high-resolution camera, three magnetorquers, sun sensors and solar cells and <a href="#" onclick="nav('project')">more </a>.
 		</div>
 		<div class="textRight DE">
-			In dem 10cm großen Gehäuse ist eine Vielzahl an Komponenten untergebracht. Verbaut wurde ein Antennesystem, eine hochauflösende Kamera, drei Elekromagneten, sechs Sonnesensoren und Solarzellen und <a href="#" onclick="nav('project')">mehr</a>.
+			In dem 10cm großen Gehäuse ist eine Vielzahl an Komponenten untergebracht. Verbaut wird ein Antennesystem, eine hochauflösende Kamera, drei Elekromagneten, Sonnesensoren und Solarzellen und <a href="#" onclick="nav('project')">mehr</a>.
 		</div>
 	</div>
 	<div class="divider"></div>

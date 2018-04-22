@@ -48,11 +48,10 @@
 
 .description {
 	color: #3a3a3a;
-	margin-top: 8px;
-	font-size: 15px;
+	margin: 8px auto 0px auto;
+    max-width: 500px;
+    width: 100%;
 	padding: 11px;
-	padding-left: 100px;
-    padding-right: 100px;
 	display: none;
 	height: 200px;
 	vertical-align: middle;

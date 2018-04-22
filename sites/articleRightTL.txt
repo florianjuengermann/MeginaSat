@@ -1,7 +1,10 @@
 <div class="contentClassRight" id="%s">
 	<div class="headingRight">
-		<a href="" style="color: inherit;" onclick="location.href = this.parentElement.parentElement.id; return true;">
-			<h2>
+		<a href="" style="color: inherit;" onclick="location.href = this.parentElement.parentElement.id; return false;">
+			<h2 class = "EN">
+				%s
+			</h2>
+			<h2 class = "DE">
 				%s
 			</h2>
 		</a>
@@ -9,8 +12,9 @@
 	</div>
 	<div class="imageRight" style="background-color: %s; background-image: url('../img/%s')" ></div>
 	<div class="textRight">
-		%s
-		<a href="" onclick="location.href = this.parentElement.parentElement.id; return true;">
+		<div class = "EN">%s</div>
+		<div class = "DE">%s</div>
+		<a href="" onclick="location.href = this.parentElement.parentElement.id; return false;">
 			[more]
 		</a>
 	</div>

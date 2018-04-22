@@ -15,29 +15,45 @@ document.getElementById("a5").classList.remove("selA");
 		// Show all articles
 		$sql = "SELECT * FROM news";
 		$result = mysqli_query($conn, $sql);
-		
+		$counter = 0;
 		while ($row = $result->fetch_assoc()) {
-			$template_file = $row['template'];
 			$date = $row['date'];
 			$hyperlink = $row['hyperlink'];
 			$img = $row['img'];
 			$bcol = $row['bcolor'];
 			$heading = $row['heading'];
+			$headingDE = $row['headingDE'];
 			$text = $row['content'];
+			$textDE = $row['contentDE'];
 			$id = $row['id'];
 			$article_file = $row['article_file'];
 
-			$template = file_get_contents("sites/" . $template_file);
-			echo sprintf($template, "?site=news&article=" . $id, $heading, $bcol, $img, $text);
+			//$template = file_get_contents("sites/" . $template_file);
+			if($counter % 2 == 0)
+				$template =  file_get_contents("sites/articleTL.txt");
+			else
+				$template =  file_get_contents("sites/articleRightTL.txt");
+			$counter++;
+			$german = "";
+			if ($LANG == "DE"){
+				$german = "&lang=de";
+			}
+			echo sprintf($template, "?site=news". $german . "&article=" . $id, $heading, $headingDE, $bcol, $img, $text, $textDE);
 		}
 	} else {
 		$id = $_GET["article"];
+		settype($id, 'integer');
 		// Show particular article
 		$sql = "SELECT * FROM news WHERE id=" . $id;
 		$result = mysqli_query($conn, $sql);
 
 		$row = mysqli_fetch_assoc($result);
-		include("articles/" . $row["article_file"]);
+		$file = "articles/" . $row["article_file"];
+		if(is_file($file)){
+			include $file;
+		}else{
+			include "articles/notfound.html";
+		}
 	}
 	/*
 	$temlate = file_get_contents("sites/articleTL.txt");
