@@ -1,0 +1,75 @@
+#wrapper {
+	/* width: 80%; */
+	max-width: var(--max-w);
+	height: auto;
+	margin: auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.member {
+	height: 315px;
+	width: 250px;
+	background-color: #e0e0e0;
+	display: inline-block;
+	margin: 10px;
+	/* padding: 6px; */
+	color: #1e1e1e;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	position: relative;
+	transition-duration: 0.5s;
+}
+
+.profilepic {
+	margin-top: 15px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.name {
+	color: #005480;
+	margin-top: 10px;
+	/* background-color: #e6e6e6; */
+	padding: 5px;
+}
+
+.role {
+	color: #f4f4f4;
+	margin-top: 3px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #1f629c;
+	padding: 3px 0px;
+}
+
+.description {
+	color: #3a3a3a;
+	margin-top: 8px;
+	font-size: 15px;
+	padding: 11px;
+	padding-left: 100px;
+    padding-right: 100px;
+	display: none;
+	height: 200px;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+
+.down {
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background-color: #1f619c;
+	margin: auto;
+	margin-top: 24px;
+}
+
+.down:hover {
+	background-color: #91c4f1;
+	cursor: pointer;
+}

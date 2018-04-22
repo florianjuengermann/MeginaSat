@@ -1,0 +1,18 @@
+<div class="contentClass" id="%s">
+	<div class="heading">
+		<a href="" style="color: inherit;" onclick="location.href = this.parentElement.parentElement.id; return false;">
+			<h2>
+				%s
+			</h2>
+		</a>
+		<div class="underscore"></div>
+	</div>
+	<div class="image" style="background-color: %s; background-image: url('../img/%s')" ></div>
+	<div class="text">
+		%s
+		
+		<a href="" onclick="location.href = this.parentElement.parentElement.id; return false;">
+			[more]
+		</a>
+	</div>
+</div>

@@ -1,0 +1,45 @@
+#articleWrapper {
+	width: 100%;
+	max-width: var(--max-w);
+	margin: 0px auto;
+	padding: 5px;
+}
+#articleWrapper h1 {
+	letter-spacing: 0.15em;
+    font-size: 3.5em;
+    font-weight: 100;
+	margin: 0px 0px 4px 10px;
+	padding-top: 80px;
+}
+#articleWrapper h3 {
+	text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: 800;
+	padding-top: 30px;
+}
+#articleWrapper p {
+    font-size: 1.2em;
+}
+#articleWrapper .imgBox, #articleWrapper .imgBox2{
+	width: 100%;
+}
+#articleWrapper .imgBox img, #articleWrapper .imgBox2 img{
+	max-width: 100%;
+	height: 800px;
+	max-height: 50vh;
+	display: block;
+}
+#articleWrapper .imgBox img{
+	margin: 0px auto;
+}
+#articleWrapper .imgBox2 img{
+	float: left;
+}
+#articleWrapper .imgBox2 div{
+	margin: 0px auto;
+	width: 85%;
+}
+
+#articleWrapper .imgBox p, #articleWrapper .imgBox2 p{
+	text-align: center;
+}
